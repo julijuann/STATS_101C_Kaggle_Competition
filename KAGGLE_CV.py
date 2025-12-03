@@ -58,6 +58,9 @@ param_grid = {
     "xgb__learning_rate": [0.05, 0.1],
     "xgb__subsample": [0.8, 1.0],
     "xgb__colsample_bytree": [0.8, 1.0],
+    "xgb__reg_alpha": [0, 0.1, 1],
+    "xgb__reg_lambda": [1, 2],
+    "xgb__min_child_weight": [1, 3, 5],
 }
 
 # perform 5-fold cross-validation
